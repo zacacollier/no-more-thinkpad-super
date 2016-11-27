@@ -22,19 +22,19 @@ You can imagine my disappointment when, after purchasing a very cheap "for-parts
 
 ### A Brief Aside: Motivation
 
-If you've read this far, you may have inferred that I _did_ find a solution, albeit an *unofficial* one. Obviously I wouldn't be writing this guide if I hadn't - in fact I'm doing so in part as a way to constructively(debatable) kill time while the system in question compiles a freshly-booted Gentoo installation.
+If you've read this far, you may have inferred that I _did_ find a solution, albeit an *unofficial* one. Obviously I wouldn't be writing this guide if I hadn't - in fact I'm doing so in part as a way to constructively (debatable?) kill time while the system in question compiles a fresh Gentoo installation.
 
 Another reason is that for all my googling I have yet to find a single, go-to resource describing this technique; this is an attempt to rectify that.
 
-Finally, I am writing this guide as a reflection of personal ethics. I understand where Lenovo, Dell, Apple, HP et al. are coming from - we all gotta make money somehow. From a corporate perspective, there's almost always a more profitability in charging your customers for replacement hardware rather than encouraging self-sufficiency. 
+Finally, I am writing this guide as a reflection of personal ethics. I understand where Lenovo, Dell, Apple, HP et al. are coming from - in business strategy there's almost always a more profitability in coercing your customers into buying replacement hardware rather than encouraging self-repair.
 
-Nevertheless, it's a shame to see good hardware go to waste, and especially beyond the obvious, anti-utilitarian consequence. E-waste is a *rapidly-growing ecological and humanitarian concern* that has a [profound impact](http://www.techrepublic.com/article/the-depressing-truth-about-e-waste-10-things-to-know/) on the well-being of the developing nations where it is often shipped off to be processed and disposed. 
+At best, I'm guessing that a confiscated motherboard will go sit in a repair queue somewhere. Another more probable (read: economically feasible) option is that the manufacturer - Lenovo in this case - will simply throw it away. It's a shame to see good hardware go to waste - especially beyond the immediately obvious anti-utilitarian consequences. E-waste is a *rapidly-growing ecological and humanitarian concern* that has a [profound impact](http://www.techrepublic.com/article/the-depressing-truth-about-e-waste-10-things-to-know/) on the well-being of the developing nations where it accumulates.
 
-There are several formidably large-scale efforts intended to address this problem, efforts which many computer hardware manufacturers are now actively participating in. Nevertheless, as a consumer of electronic products, it's good to stay informed so that you can better manage your *individual* level of impact. Breathing life into an otherwise inaccessible PC is a very rewarding way to do just that, and it has the added bonus of being a very inexpensive way to add another system to your collection.
+Nowadays there are many formidably large-scale efforts aiming to address E-waste management, and more and morecomputer hardware manufacturers are becoming active participants. Nevertheless, as a consumer of electronics, it's good to stay informed on what you can do to better manage your *individual* level of impact. Breathing life into an otherwise inaccessible PC is a very rewarding way to do just that, and it has the added bonus of being a very inexpensive way to add another system to your collection.
 
 #### Who's this guide for, then?
 This is great for anyone looking for a project PC, something you're not afraid to tinker with and possibly break. I, for instance, was looking for a cheap laptop I could use for learning more about Linux.
 
-If you're in the market for a daily driver, that is, you're looking to purchase a system that *you intend to be your primary workstation*, I don't recommend you invest the time and effort in this method. Consider a used or refurbished system (craigslist is always a good resource). Read up on manufacturer warranties and how you might acquire one for a secondhand system - Applecare, for instance, can be purchased for a system up to one year after it's date of initial purchase, [regardless of who the owner is.](https://discussions.apple.com/thread/5249998?start=0&tstart=0)
+If you're in the market for a daily driver, that is, you're looking to purchase a system that *you intend to be your primary workstation*, I don't recommend you invest the time and effort in this method. Consider a used or refurbished system (craigslist is always a good resource). Read up on manufacturer warranties and how you might acquire one for a secondhand system - Applecare, for instance, can be purchased for a system up to one year after it's date of initial purchase, [regardless of prior ownership](https://discussions.apple.com/thread/5249998?start=0&tstart=0). 
 
 
