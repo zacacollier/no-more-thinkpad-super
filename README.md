@@ -35,6 +35,26 @@ Nowadays there are many formidably large-scale efforts aiming to address E-waste
 #### Who's this guide for, then?
 This is great for anyone looking for a project PC, something you're not afraid to tinker with and possibly break. I, for instance, was looking for a cheap laptop I could use for learning more about Linux.
 
-If you're in the market for a daily driver, that is, you're looking to purchase a system that *you intend to be your primary workstation*, I don't recommend you invest the time and effort in this method. Consider a used or refurbished system (craigslist is always a good resource). Read up on manufacturer warranties and how you might acquire one for a secondhand system - Applecare, for instance, can be purchased for a system up to one year after it's date of initial purchase, [regardless of prior ownership](https://discussions.apple.com/thread/5249998?start=0&tstart=0). 
+If you're in the market for a daily driver, that is, you're looking to purchase a system that *you intend to be your primary workstation*, I don't recommend you invest the time and effort in this method. Consider a used or refurbished system (craigslist is always a good resource). Read up on manufacturer warranties and how you might acquire one for a secondhand system - Applecare, for instance, can be purchased for any system up to one year after its initial date-of-purchase, [regardless of prior ownership](https://discussions.apple.com/thread/5249998?start=0&tstart=0). 
 
+### First steps
+As soon as you receive your PC in the mail, unpack it and check to make sure that it is in the condition described by the seller. Inspect the screen and chassis for any undisclosed flaws & damages. Then make sure the battery is intact & securely attached to the housing, and power on the machine.
 
+### Power-On Password
+If you see this symbol: 
+
+![Power-On Password](https://github.com/zacacollier/no-more-thinkpad-super/blob/master/images/59377_poweronpwrd.gif)
+
+then your system is locked with a [**Power-On Password**](https://support.lenovo.com/us/en/documents/ht036206#power). To fix this, you'll need to disconnect your system's CMOS backup battery to dissolve any Password settings that are stored there.
+
+The location of your system's CMOS can be quickly found via Google. Once you've gathered information about where it's located, you're ready to proceed.
+
+First, power down the machine and **remove the battery from the laptop**. Disconnect any charging cables as well. Always perform these steps before cracking open your system to prevent damage from electrical shortage. As an extra precaution, toggle the power button a few times to drain out any remaining current.
+
+Now, grab a screwdriver and, per your manufacturer's instructions, disassemble your laptop to access the motherboard. Take care not to drop any screws! 
+
+> As a brief aside, I'd like to note that this is one of my favorite differentiating characteristics of Thinkpads. They are **really easy** to take apart. In the case of my t420s, accessing the motherboard only required me to remove *4 screws*. The keyboard simply pops out without the need to be disconnected - this came in handy whenever I needed to test-boot the machine while it was still disassembled.
+
+Once you've located the CMOS battery, disconnect it. Toggle the power button a few times to drain the CMOS of any residual current. 
+
+Now, with the battery still removed, reconnect the AC adapter and power on the laptop. If you see a `Date / Time` error on the screen, the Power-On Password is now disabled! (The password prompt may still show up, even though the password itself isn't intact - simply hit `enter`) You can now enter the BIOS and verify that your system's hardware matches the seller's description.
